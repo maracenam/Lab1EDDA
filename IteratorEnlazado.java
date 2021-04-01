@@ -6,7 +6,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class IteratorEnlazado implements Iterator<T> {
+public class IteratorEnlazado<T> implements Iterator<T> {
 
   private Node<T> actual;
 
